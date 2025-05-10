@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="https://www.favicon.cc/logo3d/512858.png">
+    <title>HR Portal</title>
+    <style>
+        header {
+            color: black;
+            font-size: 40px;
+            background-color: hotpink;
+        }
+        body {
+            background-color: white;
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navitem {
+            padding: 20px;
+            display: inline;
+        }
+        .navitem a {
+            text-decoration: none;
+            color: black;
+        }
+        .registration {
+            width: max-content;
+            margin: auto;
+        }
+        .directory {
+            text-align: center;
+        }
+        h2 {
+            background-color: lightpink;
+        }
+        table {
+            text-align: center;
+            margin: auto;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid hotpink;
+            padding: 8px;
+        }
+        .contactus {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1><strong><em><marquee>Welcome to Company HR Portal</marquee></em></strong></h1>
+    <nav>
+        <ul>
+            <li class="navitem"><a href="#employee-registration">Employee Registration</a></li>
+            <li class="navitem"><a href="#employee-directory">Directory</a></li>
+            <li class="navitem"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<img src="https://clipart-library.com/2023/business-meeting-illustration_126523-1297.jpg" height="350px" width="100%">
+
+<section id="employee-registration">
+    <form class="registration">
+        <h2>Employee Registration</h2>
+        <p>Fill the below form for the <mark>registration as an <em>Employee</em></mark></p>
+        <label for="first">First Name:</label>
+        <input type="text" placeholder="Enter First Name" required id="first"><br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" id="last"><br><br>
+        <label for="email1">Email ID:</label>
+        <input type="email" placeholder="Enter Email ID" id="email1"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter Password" id="password"><br><br>
+        <label for="age">Enter Age:</label>
+        <input type="number" placeholder="Enter Age" id="age"><br><br>
+        <label for="role">Role:</label>
+        <select id="role">
+            <option value="select">SELECT</option>
+            <option value="HR">HR</option>
+            <option value="se">Software Engineer</option>
+            <option value="hw">Hardware Engineer</option>
+            <option value="bd">Blockchain Developer</option>
+        </select><br><br>
+        <input type="checkbox" id="agree" value="agree">
+        <label for="agree">I agree to the terms and conditions</label><br><br>
+        <input type="submit">
+    </form>
+</section>
+
+<section id="employee-directory" class="directory">
+    <h2>Directory</h2>
+    <table>
+        <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Role</th>
+        </tr>
+        <tr><td>544</td><td>Abhinav</td><td>Computer Operator</td></tr>
+        <tr><td>433</td><td>Shreya</td><td>Software Engineer</td></tr>
+        <tr><td>655</td><td>Purvi</td><td>CID</td></tr>
+        <tr><td>488</td><td>Samariya</td><td>Hardware Developer</td></tr>
+        <tr><td>999</td><td>Tanuja</td><td>Blockchain Developer</td></tr>
+    </table>
+</section>
+
+<section id="contact" class="contactus">
+    <label for="country">Select Country:</label>
+    <select id="country">
+        <option value="select">SELECT</option>
+        <option value="goa">Goa</option>
+        <option value="jaipur">Jaipur</option>
+        <option value="hry">Haryana</option>
+        <option value="punb">Punjab</option>
+    </select><br><br>
+    <label for="contact-number">Contact Number:</label>
+    <input type="number" placeholder="Contact No." id="contact-number"><br><br>
+    <label for="email2">Email ID:</label>
+    <input type="email" placeholder="Enter Email" id="email2"><br><br>
+    <p><strong>You can contact us and also visit our location between 9 AM to 10 PM</strong></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.355535956831!2d75.82416887414996!3d26.92394105961031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db14b1bd30ba5%3A0x860e5d531eccb20c!2sHawa%20Mahal!5e0!3m2!1sen!2sin!4v1704050281850!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <p><footer>&copy; 2024 Microsoft Company</footer></p>
+</section>
+
+</body>
+</html>
